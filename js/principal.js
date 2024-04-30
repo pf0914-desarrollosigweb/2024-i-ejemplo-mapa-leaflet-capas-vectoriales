@@ -1,7 +1,7 @@
 // Objeto mapa
 var mapa = L.map("mapaid", {
   center: [9.5, -84],
-  zoom: 9,
+  zoom: 7,
 });
 
 // Capa base Positron de Carto
@@ -34,8 +34,8 @@ esriworld = L.tileLayer(
 // Capas base
 var mapasbase = {
   "Carto Positron": positromap,
-  "OpenStreetMap": osm,
-  "ESRI WorldImagery": esriworld
+  OpenStreetMap: osm,
+  "ESRI WorldImagery": esriworld,
 };
 
 // Control de capas
